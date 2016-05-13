@@ -1,0 +1,16 @@
+{
+  "name": "episode1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=app:* nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jsonwebtoken": "^6.2.0",
+    "morgan": "~1.6.1"
+  }
+}
